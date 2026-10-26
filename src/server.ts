@@ -154,3 +154,178 @@ let tablet1:tablet={
 }
 cl(tablet1);
 //9
+interface farmer{
+    id:number;
+    name:string;
+    email:string;
+    farmname:string;
+    address:string;
+    isActive:boolean;
+}
+let farmer1:farmer={
+    id: 1,
+    name:"paddy",
+    email:"sachin.wipro.com",
+    farmname: "paddy farm",
+    address: "bangalore",
+    isActive:true
+}
+cl(farmer1);
+//10    
+interface teacher{
+    id:number;
+    name:string;
+    email:string;
+    subject:string;
+    age:number;
+    isActive:boolean;
+
+}
+let teacher1:teacher={
+    id: 1,
+    name:"paddy",
+    email:"sachin.wipro.com",
+    subject: "maths",
+    age: 22,
+    isActive:true
+}
+cl(teacher1);
+//11
+interface book{
+    bookid:number;
+    bookname:string;
+    bookauthor:string;
+    bookprice:number;
+    bookisAvailable:boolean;
+}
+let book1:book={
+    bookid: 1,
+    bookname:"typescript",
+    bookauthor:"paddy",
+    bookprice: 500,
+    bookisAvailable:true
+}
+cl(book1);
+//12
+interface movie{
+    movieid:number;
+    moviename:string;
+    moviedirector:string;
+    moviereleaseyear:number;
+    movieisAvailable:boolean;       
+
+}
+let movie1:movie={
+    movieid: 1,
+    moviename:"inception",  
+    moviedirector:"christopher nolan",
+    moviereleaseyear: 2010,
+    movieisAvailable:true
+}
+cl(movie1); 
+//13
+interface song{
+    songid:number;
+    songname:string;
+    songartist:string;
+    songalbum:string;
+    songisAvailable:boolean;       
+}
+let song1:song={
+    songid: 1,
+    songname:"shape of you",  
+    songartist:"ed sheeran",
+    songalbum:"divide",
+    songisAvailable:true
+}
+cl(song1); 
+//14
+interface game{
+    gameid:number;
+    gamename:string;
+    gamegenre:string;
+    gamereleaseyear:number;
+    gameisAvailable:boolean;       
+}
+let game1:game={
+    gameid: 1,
+    gamename:"fortnite",  
+    gamegenre:"battle royale",
+    gamereleaseyear: 2017,
+    gameisAvailable:true
+}
+cl(game1); 
+//15        
+interface car{
+    carid:number;
+    carname:string;
+    carbrand:string;
+    carprice:number;
+    carisAvailable:boolean;       
+}
+let car1:car={
+    carid: 1,
+    carname:"mustang",  
+    carbrand:"ford",
+    carprice: 50000,
+    carisAvailable:true
+}
+cl(car1); 
+//16
+interface bike{
+    bikeid:number;
+    bikename:string;
+    bikebrand:string;
+    bikeprice:number;
+    bikeisAvailable:boolean;       
+}
+let bike1:bike={
+    bikeid: 1,
+    bikename:"ninja",  
+    bikebrand:"kawasaki",
+    bikeprice: 50000,
+    bikeisAvailable:true
+}
+cl(bike1); 
+//17 but i want to need uniqui id and unique data for all sample 
+interface bus{
+    busnumber:number;
+    bname:string;
+    bbrand:string;
+    bprice:number;
+    busconductor:string;
+    busdriver:string;
+    busisAvailable:boolean;       
+
+}
+let bus1:bus={
+    busnumber: 1212,
+    bname:"lalpari",  
+    bbrand:"ac",
+    bprice: 500000000,
+    busconductor:"shakilbabu",
+    busdriver:"ramdas",
+    busisAvailable:true
+}
+cl(bus1);
+//18
+interface train{
+    trainnumber:number;
+    tname:string;
+    tbrand:string;
+    tprice:number;
+    trainconductor:string;
+    traindriver:string;
+    trainisAvailable:boolean;       
+}
+let train1:train={
+    trainnumber: 1212,
+    tname:"lalpari",  
+    tbrand:"ac",
+    tprice: 500000000,
+    trainconductor:"shakilbabu",
+    traindriver:"ramdas",
+    trainisAvailable:true
+}
+cl(train1);
+//19
