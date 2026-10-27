@@ -287,7 +287,7 @@ let bike1:bike={
     bikeisAvailable:true
 }
 cl(bike1); 
-//17 but i want to need uniqui id and unique data for all sample 
+//17  
 interface bus{
     busnumber:number;
     bname:string;
@@ -317,7 +317,7 @@ interface train{
     trainconductor:string;
     traindriver:string;
     trainisAvailable:boolean;       
-}
+}      
 let train1:train={
     trainnumber: 1212,
     tname:"lalpari",  
@@ -328,4 +328,41 @@ let train1:train={
     trainisAvailable:true
 }
 cl(train1);
-//19
+//19s
+interface patient{
+    name:string;
+    address:string;
+    bednumber:number;
+    rooms:string;
+    mobile:number;
+    patientActive:boolean;
+
+}
+let patient1:patient={
+    name:"dass",
+    address:"pune",
+    bednumber:203,
+    rooms:"AC",
+    mobile:9822554201,
+    patientActive:true
+
+}
+//20
+interface course{
+    name:string;
+    duration:number,
+    mode:string,
+    batch:string,
+    cname:string,
+    fees:number,
+    technologies:string[]
+}
+let course1:course={
+    name:"java full stack...",
+    duration:6,
+    mode:"both",//online| offline,
+    batch:"Aug2026",
+    cname:"ai",
+    fees:50000,
+    technologies:["java","sql","angular","react","nodejs"]
+}
